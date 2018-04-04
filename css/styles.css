@@ -1,0 +1,29 @@
+body{
+  background-color: #29ad5f;
+}
+
+.one{
+  background-image: url('../images/b1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:40vh;
+  text-align: center;
+
+}
+.one h1{
+  color:yellow;
+  font-size: 80px;
+  font-family:sans-serif;
+  margin-top:40px;
+}
+.two{
+
+  margin-left: 400px;
+}
+.two h2{
+  font-size: 60px;
+
+}
+ul{
+  background-color: #c1adad;
+}
