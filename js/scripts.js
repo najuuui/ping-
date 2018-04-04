@@ -21,7 +21,7 @@ $(function() {
   $('form').submit(function(event) {
     event.preventDefault();
 
-    var num = $('#myinput').val();
+    var num = parseInt($('#myinput').val());
     pingPong(num);
     myArray.forEach(function(i) {
       $('ul').append($('<li>').html(i));
