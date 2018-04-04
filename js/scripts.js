@@ -9,10 +9,8 @@ $(function() {
       } else if (x % 3 == 0) {
         myArray.push('ping');
       } else if (x % 5 == 0) {
-
         myArray.push('pong');
       } else {
-
         myArray.push(x);
       };
 
